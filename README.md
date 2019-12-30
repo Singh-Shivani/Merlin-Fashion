@@ -1,5 +1,5 @@
 # Merlin-Fashion
-A Website for Online Fashion.
+Refresh Your Wadrobe!!
 
 This is a Website for Online Fashion(to be more precise, Wadrobe Fashion).
 This is my Custom Website, I made it from SCRATCH without any use of ready-made code which we can get online or any template.
