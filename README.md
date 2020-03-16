@@ -10,3 +10,4 @@ Merlin Fashion doesn't include anything related to database, it is just a HTML, 
 And that's how it looks🤩
 
 
+Saw all the other pages?🧐 Go check it out now!🥳
