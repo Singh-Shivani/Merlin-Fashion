@@ -1,4 +1,4 @@
-# Merlin-Fashion
+# Merlin Fashion🛒
 Refresh Your Wadrobe!!
 
 This is a Website for Online Fashion (to be more precise, Wadrobe Fashion).
