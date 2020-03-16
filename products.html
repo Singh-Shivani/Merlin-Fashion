@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Products</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <head>
+  <body>
+    <!-- navbar -->
+      <nav> 
+        <div class="logo">
+          <h3><a href="merlin.html" class="logo-name">Merlin Fashion</a></h3>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="contact.html">ContactUs</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    <!-- navbar -->
+      <h2 class="main-head-of-products">Everyone Has A Style Statment<br>
+        <span class="colored-word-bigger-size">FIND YOURS HERE!</span>
+      </h2>
+
+      <br>
+      <div class="bg-images">
+        <a href="products.html"><img src="images/products-img/marcus-loke-xXJ6utyoSw0-unsplash (1).jpg" alt=""></a>
+      </div>
+
+      <center><p class="msg-ps">
+        <span class="colored-word">Click</span> on the product to add in your shopping list.
+        <br>Go below and check <span class="colored-word">YOUR CART</span> for details.
+      </p></center>
+
+      <div>
+        <h1>For <span class="colored-word">Her</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="kurti">
+          <img src="images/products-img/women/kurti1.png" id="AKS  Kurta with Plazzzo & Dupatta || Rs.1799" onclick="add(this.id)">
+          
+          <img src="images/products-img/women/kurti2.png" id="Nayo Women Solid Kurta with Trouser || Rs.1649"" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/kurti3.png" id="AKS Printed Staight Kurta || Rs.659" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/kurti4.png" id="Fabindia Slim Fit Straight Kurta || Rs.1990" alt="" onclick="add(this.id)">
+        </div> 
+        <div class="western">
+          <img src="images/products-img/women/western1.png"  id="Ives Solid Shirt Style Top || Rs.549" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/western2.png"  id="Style Quotient Solid Top || Rs.554" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/western3.png"  id="HERE&NOW Printed A-Line Top || Rs.549" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/western4.png"  id="SASSAFRAS Ruffled Shirt Style Top || Rs. 549" alt="" onclick="add(this.id)">
+        </div>
+        <div class="g-shoes">
+          <img src="images/products-img/women/g-shoe1.png"  id=" PUMA Women LQDCell || Rs.6999" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/g-shoe2.png"  id="ADIDAS Women Ultraboost19 Running || Rs.11899" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/g-shoe3.png"  id="HRX Womwn Abslute Run  || Rs.1549" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/g-shoe4.png"  id="Skercher Women GO RUN  || Rs.3249" alt="" onclick="add(this.id)">
+        </div>
+        <div class="heels">
+          <img src="images/products-img/women/heels1.png"  id="Shetopia Women Heels || Rs.499" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/heels2.png"  id="ZAPATOZ Women Heeled Boots || Rs.527" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/heels3.png"  id="Allen Solly Women Solid Wedged || Rs.2499" alt="" onclick="add(this.id)">
+          <img src="images/products-img/women/heels4.png"  id="Shoetopia Women Heels || Rs.499" alt="" onclick="add(this.id)">
+        </div>
+
+        <h1>For <span class="colored-word">Him</span></h1>
+        <center><hr class="products-hr"></center>
+        <br><br>
+
+        <div class="shirts">
+          <img src="images/products-img/men/shirt1.png"  id="Difference of Opinion Printed Shirt || Rs.449" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/shirt2.png"  id="Moda Rapido Printed Round Neck T-shirt || Rs.486" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/shirt3.png"  id="DILLINGER Colourblocked Round Neck T-shirt || Rs.404" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/shirt4.png"  id="Roadster T-shirt with Shoulder patch || Rs.519" alt="" onclick="add(this.id)">
+        </div>
+        <div class="jeans">
+          <img src="images/products-img/men/jeans1.png"  id="HIGHLANDER Men Slim Fit Jeans || Rs.874" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/jeans2.png"  id="Roadster Men Super Skinny Fit Jeans || Rs.1199" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/jeans3.png"  id="Calvin Klein Jeans Mean Slim Straight Jeans || Rs.9599" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/jeans4.png"  id="LOCOMOTIVE Mean Slim Fit Jeans || Rs.999" alt="" onclick="add(this.id)">
+        </div>
+        <div class="joggers">
+          <img src="images/products-img/men/joggers1.png"  id="HRX Men Solid Joggers || Rs.934" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/joggers1.png"  id="HRX Men Solid Joggers || Rs.934" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/joggers1.png"  id="HRX Men Solid Joggers || Rs.934" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/joggers1.png"  id="HRX Men Solid Joggers || Rs.934" alt="" onclick="add(this.id)">
+        </div>
+        <div class="shoes">
+          <img src="images/products-img/men/shoe1.png"  id="PUMA Men Clasp IDP Sneakers || Rs.1304" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/shoe2.png"  id="Levis Men Sneakers || Rs.1169" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/shoe3.png"  id="Mactree Men Sneakers || Rs.679" alt="" onclick="add(this.id)">
+          <img src="images/products-img/men/shoe4.png"  id="HRX Men Pro Sneakers || Rs.1699" alt="" onclick="add(this.id)">
+        </div><br>
+
+        <h4 class="sry-msg">Uh-Oh! We are<span class="colored-word"> done</span>🛒</h4>
+        <center><hr class="last-hr-of-product"></center>
+        <br><br>
+
+        <div class="cart-details">
+          <h2 class="head-of-cart">Your Cart</h2>
+            <hr class="hr-of-cart-head">
+            <br>
+          <ul id="ul_pr">
+            
+          </ul>
+        <button class="btn-clear-list" onclick="emptyList()"> <span class="colored-word"> Clear My List</span></button> <br>
+          <small>Can't see anything? Click & add your favorite fashion in
+          <span class="colored-word"> Shopping List!</span> </small>
+        </div>
+        <br><br><br>
+      </div>
+      
+    <script src="nav.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>
