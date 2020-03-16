@@ -13,4 +13,5 @@ And that's how it looks🤩
 
 
 
-Saw all the other pages?🧐 Go check it out now!🥳
+Saw all the other pages?🧐 Go check it out now!🥳 
+https://singh-shivani.github.io/Merlin-Fashion/
