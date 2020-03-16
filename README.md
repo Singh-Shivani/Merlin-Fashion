@@ -1,10 +1,12 @@
 # Merlin Fashion🛒
-Refresh Your Wadrobe!!
+Refresh Your Wardrobe!🛍️
 
-This is a Website for Online Fashion (to be more precise, Wadrobe Fashion).
-This is my Custom Website, I made it from SCRATCH without any use of ready-made code which we can get online or any template.
-Although, you may get to see some familiar images on the website which are taken from other sources, just to make it beautiful.
-Also, it doesn't include any part related to database, like saving contents in the Cart of a user. It is designed for the fashion stores and may be for some other stuff also.
+With a passion for fashion here's my very own custom website relating to it.💃
 
-The MERLIN FASHION is a fully responsive & a beatiful website for Online fashion. Just take a look at it's home page
+
+The template is for the Online Clothing Fashion includes trending wardrobe collection. The website is made from scratch🥳 and doesn't include any readymade code.
+Merlin Fashion doesn't include anything related to database, it is just a HTML, CSS and JS template. Though you can find some familiar images used in the website taken from various sources, but the purpose is to only make it more beautiful.🦋
+
+And that's how it looks🤩
+
 
