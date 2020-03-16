@@ -1,0 +1,36 @@
+.merlin-grids1,.merlin-grids2{
+    padding-left: 40px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.merlin-grids2{
+    padding-right:40px;
+    grid-gap:10px;
+}
+
+.merlin-grids1{
+    padding-top: 10px;
+    padding-right:30px;
+    grid-gap:20px;
+}
+.merlin-grids2 img:nth-child(2){
+    padding-top: 70px;
+}
+
+@media screen and (max-width:452px){
+    .merlin-grids2 img:nth-child(2){
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width:780px) and (min-width:1014px){
+    .merlin-grids1{
+        padding-top: 160px;
+    }
+}
+@media screen and (max-width:1280px){
+    .merlin-grids1, .merlin-grids2{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Codystar|Josefin+Slab&display=swap'); 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a {
+    outline: 0;
+    }
+
+button:hover {
+	cursor: pointer;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.head-of-offer, .para-of-offer{
+    color:black
+}
+.index-main-img{
+    padding-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:748px){
+    .index-main-img{
+        padding-top:116px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+@media screen and (min-width:300px){
+    .index-main-img{
+        padding-top:70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+@media screen and (min-width:200px){
+    .index-main-img{
+        padding-top:100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 
+.index-offers-img{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:30px;
+    margin-right: 20px;
+}
+.index-grid-img-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.info-of-img-below{
+    text-align:center;
+    color:#ffffff;
+    background-color: #f84258; 
+    height:30px;
+    padding-top:5px;
+}
+@media screen and (max-width:891px){
+    .info-of-img-below{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:712px){
+    .info-of-img-below{
+        font-size:9px;
+    }
+}
+.index-grid-img-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    
+}
+
+.index-grid-img-2 img:nth-child(3){
+    width:372px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(1){
+    width:253px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(4){
+    width:372px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(2){
+    width:273px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(5){
+    width:275px;
+    object-fit:cover;
+}
+.index-grid-img-2 img:nth-child(6){
+    width:275px;
+    object-fit:cover;
+}
+.head-of-offer{
+    padding-left:50px;
+}
+.para-of-offer{
+    padding-left:50px;
+}
+@media screen and (max-width:400px){
+    .head-of-offer{
+        font-size: 16px;
+    }
+    .para-of-offer{
+        font-size:11px;
+    }  
+}
+.index-grid-img-3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-gap: 20px;
+    margin-left:20px;
+}
+@media screen and (max-width:1130px){
+    .index-grid-img-3{
+      padding-left:30px;
+      padding-right:30px;
+    }
+  }
+  
+.footer-container{
+    align-content: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    background-color: black;
+    object-fit: cover;
+    padding-bottom:30px;
+}
+.footer-container .footer-1, .footer-2, .footer-3, h5,h4,h2,h3,h6,p{
+    color:white;
+}
+
+.footer-container .footer-1 h2,p,h5,h6{
+    padding-left:50px;
+    padding-top:20px  
+}
+
+.footer-container .footer-2,.footer-3{
+    padding-top:70px;
+}
+.copy-right{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color:#f84258; 
+    font-size:27px;
+}
+.copy-right a{
+    color:#f84258; 
+}
+@media  screen and (max-width:593px){
+    .footer-container .footer-1 h2,p,h5,h6{
+        padding-left:10px;
+    }
+
+     .copy-right {
+        font-size:19px;
+    }
+}
