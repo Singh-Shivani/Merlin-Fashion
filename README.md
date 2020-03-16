@@ -9,5 +9,8 @@ Merlin Fashion doesn't include anything related to database, it is just a HTML, 
 
 And that's how it looks🤩
 
+ <img src="https://user-images.githubusercontent.com/47295558/76738138-11372680-6790-11ea-82c6-c27a9c2b7b68.gif"> 
+
+
 
 Saw all the other pages?🧐 Go check it out now!🥳
