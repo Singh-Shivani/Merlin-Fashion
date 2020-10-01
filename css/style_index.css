@@ -10,9 +10,6 @@ a {
     outline: 0;
     }
 
-button:hover {
-	cursor: pointer;
-}
 body{
     font-family: 'Montserrat', sans-serif;
 }
