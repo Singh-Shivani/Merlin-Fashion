@@ -17,7 +17,7 @@ nav a{
 }
 nav a:hover{
     color:#f84258;
-    text-decoration: none;
+    
 
 }
 #login{
@@ -32,10 +32,7 @@ nav a:hover{
 .logo-name{
      color:#f84258;
 }
-.logo-name:hover{
-    color:#f84258;
-    text-decoration: none;
-}
+
 
 .nav-links{
     display:flex;
@@ -95,7 +92,6 @@ nav a:hover{
     }
     nav a:hover{
         color:#f7f7f7;
-        text-decoration: none;
     
     }
 }
