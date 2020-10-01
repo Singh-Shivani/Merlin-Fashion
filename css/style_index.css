@@ -12,6 +12,7 @@ a {
 
 button:hover {
 	cursor: pointer;
+	font-weight: bold;
 }
 body{
     font-family: 'Montserrat', sans-serif;
