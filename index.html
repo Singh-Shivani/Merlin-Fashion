@@ -17,7 +17,7 @@
 </head> 
 <body>  
   <!-- navbar -->
-    <nav>
+    <nav id="navbar">
       <div class="logo">
         <h3><a href="merlin.html" class="logo-name">Merlin Fashion</a></h3>
       </div>
@@ -142,5 +142,17 @@
   <!-- FOOTER -->
 
   <script type="text/javascript" src="js/nav.js"></script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+    </script>
   </body>
 </html>
